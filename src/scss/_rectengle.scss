@@ -1,5 +1,15 @@
 .rectengle {
     width: 100%;
     height: 300px;
-    background-color: #000000;
+    &__blog {
+        padding: 130px 0px 0px 0px;
+        display: flex;
+        justify-content: space-between;
+    }
+    &__img {
+        text-align: center;
+        img {
+            width: 100%;
+        }
+    }
 }

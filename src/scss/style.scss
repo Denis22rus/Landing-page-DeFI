@@ -6,11 +6,13 @@ $md3: 767.98px;
 $md4: 479.98px;
 
 $maincolor: #E9DEC3;
+$yellowColor: #E2A23B;
 
 @import "_nullstyle.scss";
 @import "_header.scss";
 @import "_explorer.scss";
 @import "_rectengle.scss";
+@import "_medieval.scss";
 
 html,
 body {
@@ -22,7 +24,7 @@ body {
     font-family: Poppins, Playfair, Inter, Lora;
     font-size: 16px;
     color: $maincolor;
-    background-color: #fff;
+    background-color: #000000;
   }
 
   /* ----------------*/

@@ -12,7 +12,6 @@
     }
     &__title {
         font-family: Lora;
-        font-weight: bold;
         font-size: 2.1rem;
         line-height: 44 / 35 * 100%;
         color: #fff;
@@ -22,7 +21,7 @@
         font-weight: 700;
         font-size: 3.75rem;
         line-height: 80 / 60 * 100%;
-        color: #E2A23B;
+        color: $yellowColor;
         margin-top: 15px;
     }
     &__text {
@@ -30,7 +29,6 @@
         font-weight: 500;
         font-size: 1.2rem;
         line-height: 30 / 20 * 100%;
-        color: #E9DEC3;
         margin-top: 15px;
         max-width: 814px;
     }
