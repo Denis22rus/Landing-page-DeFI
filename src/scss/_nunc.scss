@@ -1,0 +1,41 @@
+.nunc {
+    width: 100%;
+    height: 1041px;
+    position: relative;
+    &__blog {
+        display: flex;
+    }
+    &__row {
+        margin-top: 85px;
+        max-width: 513px;
+    }
+    &__title {
+        font-family: Playfair;
+        font-weight: 700;
+        font-size: 3.1rem;
+        line-height: 66 / 50 * 100%;
+        color: $yellowColor;
+    }
+    &__subtitle {
+        font-family: Poppins;
+        font-size: 1.25rem;
+        line-height: 33 / 20 * 100%;
+
+        margin: 35px 0px 25px 0px;
+    }
+    &__img-1 {
+        position: absolute;
+        top: 114px;
+        right: 590px;
+    }
+    &__img-2 {
+        position: absolute;
+        top: 274px;
+        right: 423px;
+    }
+    &__img-3 {
+        position: absolute;
+        top: 23px;
+        right: 263px;
+    }
+}

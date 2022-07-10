@@ -183,6 +183,47 @@ h6 {
   margin-top: 10px;
 }
 
+.nunc {
+  width: 100%;
+  height: 1041px;
+  position: relative;
+}
+.nunc__blog {
+  display: flex;
+}
+.nunc__row {
+  margin-top: 85px;
+  max-width: 513px;
+}
+.nunc__title {
+  font-family: Playfair;
+  font-weight: 700;
+  font-size: 3.1rem;
+  line-height: 132%;
+  color: #E2A23B;
+}
+.nunc__subtitle {
+  font-family: Poppins;
+  font-size: 1.25rem;
+  line-height: 165%;
+  margin: 35px 0px 25px 0px;
+}
+.nunc__img-1 {
+  position: absolute;
+  top: 114px;
+  right: 590px;
+}
+.nunc__img-2 {
+  position: absolute;
+  top: 274px;
+  right: 423px;
+}
+.nunc__img-3 {
+  position: absolute;
+  top: 23px;
+  right: 263px;
+}
+
 html,
 body {
   height: 100%;
