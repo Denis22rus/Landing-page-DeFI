@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+    @@include('html/head.html',{
+        "title":"Главная"
+    })
+<body>
+<div class="wrapper">
+    @@include('html/header.html', {})
+    <main>
+        <section class="explorer">
+            <div class="container">
+                <div class="explorer__blog">
+                    <h1 class="explorer__title">Explorer</h1>
+                    <h2 class="explorer__subtitle"">MIDDLE EARTH PROTOCOL</h2>
+                    <div class="explorer__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Massa lacus ac et, semper pellentesque. At eget purus eget semper elementum porttitor.</div>
+                    <a href="#" class="btn btn-white">Launch App</a>
+                </div>
+            </div>
+        </section>
+        <section class="rectengle">
+            <div class="container">
+                <div class="rectengle__blog">
+                    <div class="rectengle__img">
+                        <img src="@img/rectengle/coinbase1.png" alt="coinbase">
+                    </div>
+                    <div class="rectengle__img">
+                        <img src="@img/rectengle/binance1.png" alt="binance1">
+                    </div>
+                    <div class="rectengle__img">
+                        <img src="@img/rectengle/metamask1.png" alt="metamask">
+                    </div>
+                    <div class="rectengle__img">
+                        <img src="@img/rectengle/trustwallet1.png" alt="trustwallet">
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    @@include('html/footer.html', {})
+    <script src="js/app.min.js"></script>
+</div>
+</body>
+</html>
