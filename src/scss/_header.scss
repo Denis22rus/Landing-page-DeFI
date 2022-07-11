@@ -10,11 +10,17 @@
         display: flex;
         justify-content: space-between;
         align-items: center;
+        @media (max-width: $md2) {
+            justify-content: center;
+        }
     }
     &__img {
         text-align: center;
         img {
             width: 100%;
+        }
+        @media (max-width: $md1) {
+            display: none;
         }
     }
     &__list {
@@ -35,5 +41,9 @@
     &__link:hover {
         color: #FFFFFF;
     }
-
+    @media (max-width: $md2) {
+        .btn-none {
+            display: none;
+        }
+    }
 }

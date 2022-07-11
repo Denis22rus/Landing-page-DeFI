@@ -47,11 +47,21 @@ h6 {
   justify-content: space-between;
   align-items: center;
 }
+@media (max-width: 767.98px) {
+  .header__menu {
+    justify-content: center;
+  }
+}
 .header__img {
   text-align: center;
 }
 .header__img img {
   width: 100%;
+}
+@media (max-width: 991.98px) {
+  .header__img {
+    display: none;
+  }
 }
 .header__list {
   display: flex;
@@ -70,6 +80,11 @@ h6 {
 }
 .header__link:hover {
   color: #FFFFFF;
+}
+@media (max-width: 767.98px) {
+  .header .btn-none {
+    display: none;
+  }
 }
 
 .explorer {
@@ -98,6 +113,16 @@ h6 {
   color: #E2A23B;
   margin-top: 15px;
 }
+@media (max-width: 991.98px) {
+  .explorer__subtitle {
+    font-size: 2.75rem;
+  }
+}
+@media (max-width: 767.98px) {
+  .explorer__subtitle {
+    font-size: 2.5rem;
+  }
+}
 .explorer__text {
   font-family: Poppins;
   font-weight: 500;
@@ -105,6 +130,12 @@ h6 {
   line-height: 150%;
   margin-top: 15px;
   max-width: 814px;
+}
+@media (max-width: 991.98px) {
+  .explorer__text {
+    max-width: 514px;
+    font-size: 1rem;
+  }
 }
 
 .rectengle {
