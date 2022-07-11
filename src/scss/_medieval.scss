@@ -1,7 +1,7 @@
 .medieval {
     width: 100%;
-    height: 811px;
     background-color: #15181F;
+    padding: 93px 0px 158px 0px;
     &__title {
         font-family: Playfair;
         font-weight: 700;
@@ -9,7 +9,6 @@
         line-height: 80 / 60 * 100%;
         color: $yellowColor;
         text-align: center;
-        padding-top: 93px;
     }
     &__img {
         text-align: center;
@@ -23,12 +22,19 @@
         display: flex;
 
         margin-top: 70px;
+        @media (max-width: $md1) {
+            flex-wrap: wrap;
+            justify-content: center;
+        }
     }
     &__column {
         background-color: rgba(0, 0, 0, 0.7);
         border: 1px solid #E2A23B;
         margin: 0px 75px 0px 0px;
         border-radius: 5px;
+        @media (max-width: $md1) {
+            margin: 15px 0px 0px 0px;
+        }
     }
     &__column:last-child {
         margin: 0px 0px 0px 0px;

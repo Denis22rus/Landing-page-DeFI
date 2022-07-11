@@ -37,6 +37,9 @@
         line-height: 24 / 16 * 100%;
         color: #645f58;
         transition: color 0.2s linear;
+        @media (max-width: $md2) {
+            font-size: 0.8rem;
+        }
     }
     &__link:hover {
         color: #FFFFFF;
